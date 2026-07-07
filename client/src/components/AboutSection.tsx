@@ -9,7 +9,7 @@ const credentials = [
   { icon: Shield, label: "Licensed & Insured", detail: "Florida Licensed Pool Contractor" },
   { icon: Award, label: "15+ Years Experience", detail: "Sarasota & Manatee County Expert" },
   { icon: Clock, label: "Reliable Every Week", detail: "No missed visits. No excuses." },
-  { icon: Anchor, label: "Local, Not a Franchise", detail: "You get Jon — not a call center" },
+  { icon: Anchor, label: "Local, Not a Franchise", detail: "Family-run crew, not a call center" },
 ];
 
 export default function AboutSection() {
@@ -95,7 +95,7 @@ export default function AboutSection() {
                 className="text-sm leading-relaxed"
                 style={{ color: "oklch(0.40 0.02 250)", fontFamily: "'Open Sans', sans-serif" }}
               >
-                When you call Captain Jon's Pool Service, you get <strong>Captain Jon Green</strong> — personally. No subcontractors, no rotating crews, no surprises. Jon has been keeping pools crystal-clear across Sarasota and Manatee County for over 15 years, and he treats every pool like it's his own.
+                Captain Jon Green leads a tight-knit, family-run crew — currently including his son — built on the same standards of quality and reliability that Jon has delivered across Sarasota and Manatee County for over 15 years. This isn't a franchise or a faceless company. Every pool is treated like it's their own.
               </p>
               <p
                 className="text-sm leading-relaxed"
@@ -150,7 +150,7 @@ export default function AboutSection() {
               href="#contact"
               className="btn-gold inline-block mt-8"
             >
-              Get a Free Quote from Jon
+              Get a Free Quote
             </a>
           </div>
         </div>
