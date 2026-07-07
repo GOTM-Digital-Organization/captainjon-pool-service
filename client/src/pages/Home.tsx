@@ -16,6 +16,8 @@ import MaintenanceChecklist from "@/components/MaintenanceChecklist";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import PoolLeakCTA from "@/components/PoolLeakCTA";
 import ContactSection from "@/components/ContactSection";
+import FAQSection from "@/components/FAQSection";
+import MobileStickyBar from "@/components/MobileStickyBar";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -33,9 +35,11 @@ export default function Home() {
         <ServiceAreasSection />
         <TestimonialsSection />
         <PoolLeakCTA />
+        <FAQSection />
         <ContactSection />
       </main>
       <Footer />
+      <MobileStickyBar />
     </div>
   );
 }

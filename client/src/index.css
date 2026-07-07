@@ -260,3 +260,10 @@
     line-height: 0;
   }
 }
+
+/* Mobile sticky bar — add bottom padding on small screens so footer content isn't hidden */
+@media (max-width: 1023px) {
+  body {
+    padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px));
+  }
+}

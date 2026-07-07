@@ -22,6 +22,8 @@ export default function Navbar() {
     { label: "Chem Delivery", href: "#chemical-delivery" },
     { label: "Service Plans", href: "#plans" },
     { label: "Service Areas", href: "#service-areas" },
+    { label: "About", href: "#about" },
+    { label: "FAQ", href: "#faq" },
     { label: "Contact", href: "#contact" },
   ];
 
