@@ -11,6 +11,7 @@ import ServicesSection from "@/components/ServicesSection";
 import ChemicalDeliverySection from "@/components/ChemicalDeliverySection";
 import ServicePlansSection from "@/components/ServicePlansSection";
 import ServiceAreasSection from "@/components/ServiceAreasSection";
+import AboutSection from "@/components/AboutSection";
 import MaintenanceChecklist from "@/components/MaintenanceChecklist";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import PoolLeakCTA from "@/components/PoolLeakCTA";
@@ -25,6 +26,7 @@ export default function Home() {
         <HeroSection />
         <TrustBar />
         <ServicesSection />
+        <AboutSection />
         <ChemicalDeliverySection />
         <ServicePlansSection />
         <MaintenanceChecklist />

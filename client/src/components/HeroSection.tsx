@@ -29,25 +29,25 @@ export default function HeroSection() {
       className="relative min-h-screen flex items-center overflow-hidden"
       style={{ backgroundColor: "oklch(0.13 0.04 250)" }}
     >
-      {/* Background image */}
+      {/* Background image — Captain Jon cleaning a pool */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/manus-storage/hero-pool-bg_0406fa74.jpg"
-          alt="Beautiful Florida pool at sunset"
+          src="/manus-storage/captain-jon-hero_3fd15a3b.jpg"
+          alt="Captain Jon Green cleaning a pool in Sarasota Florida"
           className="w-full h-full object-cover"
-          style={{ opacity: 0.35 }}
+          style={{ opacity: 0.75 }}
         />
-        {/* Gradient overlay */}
+        {/* Lighter gradient overlay so Jon is clearly visible */}
         <div
           className="absolute inset-0"
           style={{
-            background: "linear-gradient(to right, oklch(0.13 0.04 250 / 0.95) 0%, oklch(0.13 0.04 250 / 0.7) 50%, oklch(0.13 0.04 250 / 0.4) 100%)",
+            background: "linear-gradient(to right, oklch(0.13 0.04 250 / 0.82) 0%, oklch(0.13 0.04 250 / 0.45) 55%, oklch(0.13 0.04 250 / 0.15) 100%)",
           }}
         />
         <div
           className="absolute inset-0"
           style={{
-            background: "linear-gradient(to top, oklch(0.13 0.04 250 / 0.8) 0%, transparent 60%)",
+            background: "linear-gradient(to top, oklch(0.13 0.04 250 / 0.6) 0%, transparent 50%)",
           }}
         />
       </div>
