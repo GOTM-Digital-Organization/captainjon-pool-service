@@ -16,22 +16,35 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
+              {/* Square navy box with white anchor — matches poolleaksarasota.com */}
               <div
-                className="w-9 h-9 rounded-full flex items-center justify-center"
-                style={{ backgroundColor: "oklch(0.74 0.155 75)" }}
+                className="flex items-center justify-center flex-shrink-0"
+                style={{
+                  width: "40px",
+                  height: "40px",
+                  backgroundColor: "oklch(0.22 0.04 250)",
+                  border: "2px solid oklch(0.74 0.155 75 / 0.5)",
+                  borderRadius: "0",
+                }}
               >
-                <Anchor className="w-5 h-5" style={{ color: "oklch(0.13 0.04 250)" }} />
+                <Anchor className="w-5 h-5" style={{ color: "#ffffff" }} />
               </div>
               <div>
                 <div
                   className="text-white font-bold text-base leading-none"
-                  style={{ fontFamily: "'Oswald', sans-serif", fontWeight: 700 }}
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
                 >
                   Captain Jon's
                 </div>
                 <div
-                  className="text-xs leading-none mt-0.5"
-                  style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Oswald', sans-serif" }}
+                  className="uppercase leading-none mt-0.5"
+                  style={{
+                    color: "oklch(0.74 0.155 75)",
+                    fontFamily: "'Montserrat', sans-serif",
+                    fontWeight: 600,
+                    fontSize: "0.6rem",
+                    letterSpacing: "0.15em",
+                  }}
                 >
                   Pool Service
                 </div>

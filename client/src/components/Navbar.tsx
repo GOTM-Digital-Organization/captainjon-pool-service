@@ -36,24 +36,37 @@ export default function Navbar() {
     >
       <div className="container">
         <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo */}
+          {/* Logo — matches poolleaksarasota.com: square navy box + white anchor + text lockup */}
           <a href="/" className="flex items-center gap-3 group">
+            {/* Square navy box with white anchor — identical to poolleaksarasota.com */}
             <div
-              className="w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0"
-              style={{ backgroundColor: "oklch(0.74 0.155 75)" }}
+              className="flex items-center justify-center flex-shrink-0"
+              style={{
+                width: "42px",
+                height: "42px",
+                backgroundColor: "oklch(0.18 0.04 250)",
+                border: "2px solid oklch(0.74 0.155 75 / 0.6)",
+                borderRadius: "0",
+              }}
             >
-              <Anchor className="w-5 h-5" style={{ color: "oklch(0.13 0.04 250)" }} />
+              <Anchor className="w-5 h-5" style={{ color: "#ffffff" }} />
             </div>
             <div className="flex flex-col leading-tight">
               <span
-                className="text-white font-display text-base font-bold tracking-wide leading-none"
-                style={{ fontFamily: "'Oswald', sans-serif", fontWeight: 700 }}
+                className="text-white font-bold leading-none"
+                style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700, fontSize: "1rem" }}
               >
                 Captain Jon's
               </span>
               <span
-                className="text-xs tracking-widest uppercase leading-none mt-0.5"
-                style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Oswald', sans-serif", fontWeight: 400 }}
+                className="uppercase leading-none mt-0.5"
+                style={{
+                  color: "oklch(0.74 0.155 75)",
+                  fontFamily: "'Montserrat', sans-serif",
+                  fontWeight: 600,
+                  fontSize: "0.6rem",
+                  letterSpacing: "0.15em",
+                }}
               >
                 Pool Service
               </span>
