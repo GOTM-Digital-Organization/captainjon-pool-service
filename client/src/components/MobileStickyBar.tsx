@@ -63,13 +63,13 @@ export default function MobileStickyBar() {
               className="font-black text-sm uppercase tracking-wide text-white"
               style={{ fontFamily: "'Oswald', sans-serif", fontWeight: 900 }}
             >
-              Text for Chems
+              Free Delivery
             </span>
             <span
               className="text-xs mt-0.5"
               style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Open Sans', sans-serif" }}
             >
-              $45/mo delivery
+              See details →
             </span>
           </div>
         </a>
