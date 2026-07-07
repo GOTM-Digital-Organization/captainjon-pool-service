@@ -13,7 +13,7 @@ const checklistItems = [
   "Balance Pool Water Chemistry",
   "Add Pool Chemicals as Needed",
   "Empty Filtration, Pump & Skimmer Baskets",
-  "Pool Filter Backwashing",
+  "Pool Filter Backwashing (as necessary)",
   "Salt Cell Cleaning & Inspection",
   "Inspect Pool Equipment & Plumbing",
   "Check Pool Light Function",

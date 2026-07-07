@@ -12,21 +12,21 @@ const silverFeatures = [
   "Brushing walls & steps",
   "14-Point inspection",
   "Chemical balancing",
-  "Filter backwashing",
-  "Vacuuming (1x/month)",
+  "Filter backwashing as necessary",
+  "Vacuuming as needed",
   "All chemicals included",
   "No contracts",
 ];
 
 const goldFeatures = [
-  "Twice per week service",
+  "Once per week service",
   "Skimming pool surface",
   "Emptying all baskets",
   "Brushing walls & steps",
   "14-Point inspection",
   "Chemical balancing",
-  "Filter backwashing",
-  "Vacuuming (2x/month)",
+  "Filter backwashing as necessary",
+  "Vacuuming as needed",
   "All chemicals included",
   "Priority scheduling",
   "No contracts",
@@ -187,7 +187,7 @@ export default function ServicePlansSection() {
                   className="text-xl font-black text-white"
                   style={{ fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  2× Weekly Service
+                  Premium Weekly Service
                 </h3>
               </div>
               <Anchor className="w-8 h-8" style={{ color: "oklch(0.74 0.155 75)", opacity: 0.4 }} />
@@ -198,7 +198,7 @@ export default function ServicePlansSection() {
                 className="text-sm mb-5"
                 style={{ color: "oklch(0.72 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}
               >
-                For pools that see heavy use, or owners who want the absolute best.
+                Our most comprehensive weekly service — priority scheduling and everything your pool needs.
               </p>
               <ul className="space-y-2.5">
                 {goldFeatures.map((feature) => (

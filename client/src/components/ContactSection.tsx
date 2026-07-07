@@ -1,6 +1,6 @@
 /**
  * ContactSection — Lead capture form + contact info
- * Form submissions go to jonathansmart4@gmail.com
+ * Form submissions go to jongreen67@gmail.com
  */
 
 import { useState } from "react";
@@ -64,10 +64,10 @@ export default function ContactSection() {
         setSubmitted(true);
       } else {
         // Fallback: open mailto
-        window.location.href = `mailto:jonathansmart4@gmail.com?subject=Pool Service Inquiry - ${formData.name}&body=Name: ${formData.name}%0APhone: ${formData.phone}%0AEmail: ${formData.email}%0ACity: ${formData.city}%0AService: ${formData.service}%0AMessage: ${formData.message}`;
+        window.location.href = `mailto:jongreen67@gmail.com?subject=Pool Service Inquiry - ${formData.name}&body=Name: ${formData.name}%0APhone: ${formData.phone}%0AEmail: ${formData.email}%0ACity: ${formData.city}%0AService: ${formData.service}%0AMessage: ${formData.message}`;
       }
     } catch {
-      window.location.href = `mailto:jonathansmart4@gmail.com?subject=Pool Service Inquiry - ${formData.name}&body=Name: ${formData.name}%0APhone: ${formData.phone}%0AEmail: ${formData.email}%0ACity: ${formData.city}%0AService: ${formData.service}%0AMessage: ${formData.message}`;
+      window.location.href = `mailto:jongreen67@gmail.com?subject=Pool Service Inquiry - ${formData.name}&body=Name: ${formData.name}%0APhone: ${formData.phone}%0AEmail: ${formData.email}%0ACity: ${formData.city}%0AService: ${formData.service}%0AMessage: ${formData.message}`;
     }
     setSubmitting(false);
   };
@@ -134,8 +134,8 @@ export default function ContactSection() {
               {
                 icon: Mail,
                 label: "Email",
-                value: "jonathansmart4@gmail.com",
-                href: "mailto:jonathansmart4@gmail.com",
+                value: "jongreen67@gmail.com",
+                href: "mailto:jongreen67@gmail.com",
               },
               {
                 icon: Clock,

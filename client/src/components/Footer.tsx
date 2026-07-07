@@ -53,12 +53,12 @@ export default function Footer() {
                 (941) 584-3165
               </a>
               <a
-                href="mailto:jonathansmart4@gmail.com"
+                href="mailto:jongreen67@gmail.com"
                 className="flex items-center gap-2 text-sm hover:opacity-80 transition-opacity"
                 style={{ color: "oklch(0.65 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}
               >
                 <Mail className="w-4 h-4" />
-                jonathansmart4@gmail.com
+                jongreen67@gmail.com
               </a>
             </div>
           </div>
