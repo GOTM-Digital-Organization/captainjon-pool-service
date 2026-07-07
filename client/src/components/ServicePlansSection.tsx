@@ -1,35 +1,21 @@
 /**
- * ServicePlansSection — Silver and Gold pool service plans
- * Editorial layout with anchor motif and strong typography
+ * ServicePlansSection — Single Gold weekly pool service plan
+ * Gulf Coast Authority: navy + gold, centered editorial layout
  */
 
-import { Check, Star, Anchor } from "lucide-react";
+import { Check, Star, Anchor, Phone } from "lucide-react";
 
-const silverFeatures = [
-  "Once per week service",
-  "Skimming pool surface",
-  "Emptying all baskets",
-  "Brushing walls & steps",
-  "14-Point inspection",
-  "Chemical balancing",
+const planFeatures = [
+  "Once per week professional service",
+  "Skimming pool surface for debris",
+  "Emptying all skimmer & pump baskets",
+  "Brushing walls, steps & tile line",
+  "Vacuuming pool floor as needed",
+  "Complete water chemistry testing",
+  "Chemical balancing (all chemicals included)",
   "Filter backwashing as necessary",
-  "Vacuuming as needed",
-  "All chemicals included",
-  "No contracts",
-];
-
-const goldFeatures = [
-  "Once per week service",
-  "Skimming pool surface",
-  "Emptying all baskets",
-  "Brushing walls & steps",
-  "14-Point inspection",
-  "Chemical balancing",
-  "Filter backwashing as necessary",
-  "Vacuuming as needed",
-  "All chemicals included",
-  "Priority scheduling",
-  "No contracts",
+  "14-Point equipment inspection",
+  "No contracts — cancel anytime",
 ];
 
 export default function ServicePlansSection() {
@@ -41,125 +27,52 @@ export default function ServicePlansSection() {
     >
       <div className="container">
         {/* Header */}
-        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-14">
-          <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="h-px w-8" style={{ backgroundColor: "oklch(0.74 0.155 75)" }} />
-              <span
-                className="text-xs uppercase tracking-widest font-bold"
-                style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Oswald', sans-serif" }}
-              >
-                Service Plans
-              </span>
-            </div>
-            <h2
-              className="font-black leading-tight"
-              style={{
-                fontFamily: "'Montserrat', sans-serif",
-                fontWeight: 900,
-                fontSize: "clamp(2rem, 4vw, 3.2rem)",
-                color: "oklch(0.18 0.04 250)",
-                lineHeight: 1.1,
-              }}
+        <div className="text-center mb-12">
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <div className="h-px w-8" style={{ backgroundColor: "oklch(0.74 0.155 75)" }} />
+            <span
+              className="text-xs uppercase tracking-widest font-bold"
+              style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Oswald', sans-serif" }}
             >
-              Pick Your Plan.
-              <br />
-              <span style={{ color: "oklch(0.74 0.155 75)" }}>No Contracts. Ever.</span>
-            </h2>
+              Weekly Service Plan
+            </span>
+            <div className="h-px w-8" style={{ backgroundColor: "oklch(0.74 0.155 75)" }} />
           </div>
+          <h2
+            className="font-black leading-tight mb-4"
+            style={{
+              fontFamily: "'Montserrat', sans-serif",
+              fontWeight: 900,
+              fontSize: "clamp(2rem, 4vw, 3.2rem)",
+              color: "oklch(0.18 0.04 250)",
+              lineHeight: 1.1,
+            }}
+          >
+            One Plan. Everything Included.
+            <br />
+            <span style={{ color: "oklch(0.74 0.155 75)" }}>No Contracts. Ever.</span>
+          </h2>
           <p
-            className="lg:max-w-xs text-sm leading-relaxed"
+            className="text-sm leading-relaxed max-w-lg mx-auto"
             style={{ color: "oklch(0.45 0.02 250)", fontFamily: "'Open Sans', sans-serif" }}
           >
-            Month-to-month. Cancel anytime. All plans include chemicals and a dedicated technician for your property.
+            Captain Jon keeps it simple — one comprehensive weekly service plan that covers everything your pool needs. Month-to-month, cancel anytime.
           </p>
         </div>
 
-        {/* Plans grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {/* Silver Plan */}
-          <div
-            className="border flex flex-col overflow-hidden"
-            style={{
-              backgroundColor: "oklch(1 0 0)",
-              borderColor: "oklch(0.88 0.008 250)",
-              boxShadow: "0 4px 24px oklch(0 0 0 / 0.06)",
-            }}
-          >
-            {/* Plan header */}
-            <div
-              className="px-7 py-5 border-b flex items-center justify-between"
-              style={{ borderColor: "oklch(0.88 0.008 250)", backgroundColor: "oklch(0.97 0.003 250)" }}
-            >
-              <div>
-                <div
-                  className="text-xs font-bold uppercase tracking-widest mb-1"
-                  style={{ color: "oklch(0.55 0.14 220)", fontFamily: "'Oswald', sans-serif" }}
-                >
-                  Silver Plan
-                </div>
-                <h3
-                  className="text-xl font-black"
-                  style={{ fontFamily: "'Montserrat', sans-serif", color: "oklch(0.18 0.04 250)" }}
-                >
-                  1× Weekly Service
-                </h3>
-              </div>
-              <Anchor className="w-8 h-8 opacity-10" style={{ color: "oklch(0.18 0.04 250)" }} />
-            </div>
-
-            <div className="px-7 py-6 flex-1">
-              <p
-                className="text-sm mb-5"
-                style={{ color: "oklch(0.50 0.02 250)", fontFamily: "'Open Sans', sans-serif" }}
-              >
-                Perfect for most residential pools in Sarasota & Manatee County.
-              </p>
-              <ul className="space-y-2.5">
-                {silverFeatures.map((feature) => (
-                  <li
-                    key={feature}
-                    className="flex items-center gap-3 text-sm"
-                    style={{ color: "oklch(0.35 0.02 250)", fontFamily: "'Open Sans', sans-serif" }}
-                  >
-                    <Check
-                      className="w-4 h-4 flex-shrink-0"
-                      style={{ color: "oklch(0.55 0.14 220)" }}
-                    />
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="px-7 pb-7">
-              <a
-                href="#contact"
-                className="w-full block text-center py-3 font-bold text-sm uppercase tracking-wider transition-all duration-200 hover:opacity-90"
-                style={{
-                  backgroundColor: "oklch(0.18 0.04 250)",
-                  color: "oklch(0.98 0 0)",
-                  fontFamily: "'Montserrat', sans-serif",
-                  fontWeight: 700,
-                }}
-              >
-                Get a Quote
-              </a>
-            </div>
-          </div>
-
-          {/* Gold Plan */}
+        {/* Single plan card — centered, max-width constrained */}
+        <div className="max-w-xl mx-auto">
           <div
             className="flex flex-col overflow-hidden relative"
             style={{
               backgroundColor: "oklch(0.18 0.04 250)",
-              boxShadow: "0 8px 40px oklch(0.74 0.155 75 / 0.25)",
-              border: "2px solid oklch(0.74 0.155 75 / 0.5)",
+              boxShadow: "0 12px 48px oklch(0.74 0.155 75 / 0.25)",
+              border: "2px solid oklch(0.74 0.155 75 / 0.55)",
             }}
           >
-            {/* Most popular banner */}
+            {/* Gold banner */}
             <div
-              className="flex items-center justify-center gap-2 py-2"
+              className="flex items-center justify-center gap-2 py-2.5"
               style={{ backgroundColor: "oklch(0.74 0.155 75)" }}
             >
               <Star className="w-3.5 h-3.5 fill-current" style={{ color: "oklch(0.13 0.04 250)" }} />
@@ -167,62 +80,82 @@ export default function ServicePlansSection() {
                 className="text-xs font-bold uppercase tracking-widest"
                 style={{ color: "oklch(0.13 0.04 250)", fontFamily: "'Oswald', sans-serif" }}
               >
-                Most Popular Plan
+                Captain Jon's Gold Plan
               </span>
+              <Star className="w-3.5 h-3.5 fill-current" style={{ color: "oklch(0.13 0.04 250)" }} />
             </div>
 
             {/* Plan header */}
             <div
-              className="px-7 py-5 border-b flex items-center justify-between"
+              className="px-8 py-6 border-b flex items-center justify-between"
               style={{ borderColor: "oklch(0.30 0.04 250)" }}
             >
               <div>
-                <div
-                  className="text-xs font-bold uppercase tracking-widest mb-1"
-                  style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Oswald', sans-serif" }}
-                >
-                  Gold Plan
-                </div>
                 <h3
-                  className="text-xl font-black text-white"
+                  className="text-2xl font-black text-white leading-tight"
                   style={{ fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  Premium Weekly Service
+                  Weekly Pool Service
                 </h3>
+                <p
+                  className="text-sm mt-1"
+                  style={{ color: "oklch(0.72 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}
+                >
+                  Full-service, every week — chemicals included
+                </p>
               </div>
-              <Anchor className="w-8 h-8" style={{ color: "oklch(0.74 0.155 75)", opacity: 0.4 }} />
+              <Anchor className="w-10 h-10 flex-shrink-0" style={{ color: "oklch(0.74 0.155 75)", opacity: 0.5 }} />
             </div>
 
-            <div className="px-7 py-6 flex-1">
-              <p
-                className="text-sm mb-5"
-                style={{ color: "oklch(0.72 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}
-              >
-                Our most comprehensive weekly service — priority scheduling and everything your pool needs.
-              </p>
-              <ul className="space-y-2.5">
-                {goldFeatures.map((feature) => (
+            {/* Features list */}
+            <div className="px-8 py-6">
+              <ul className="space-y-3">
+                {planFeatures.map((feature) => (
                   <li
                     key={feature}
                     className="flex items-center gap-3 text-sm"
-                    style={{ color: "oklch(0.85 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}
+                    style={{ color: "oklch(0.88 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}
                   >
-                    <Check
-                      className="w-4 h-4 flex-shrink-0"
-                      style={{ color: "oklch(0.74 0.155 75)" }}
-                    />
+                    <div
+                      className="w-5 h-5 flex items-center justify-center flex-shrink-0"
+                      style={{ backgroundColor: "oklch(0.74 0.155 75 / 0.15)" }}
+                    >
+                      <Check className="w-3 h-3" style={{ color: "oklch(0.74 0.155 75)" }} />
+                    </div>
                     {feature}
                   </li>
                 ))}
               </ul>
             </div>
 
-            <div className="px-7 pb-7">
+            {/* CTA */}
+            <div className="px-8 pb-8 flex flex-col sm:flex-row gap-3">
               <a
                 href="#contact"
-                className="btn-gold w-full block text-center"
+                className="flex-1 block text-center py-3.5 font-black text-sm uppercase tracking-wider transition-all duration-150 active:scale-95"
+                style={{
+                  backgroundColor: "oklch(0.74 0.155 75)",
+                  color: "oklch(0.13 0.04 250)",
+                  fontFamily: "'Oswald', sans-serif",
+                  fontWeight: 700,
+                  letterSpacing: "0.1em",
+                }}
               >
-                Get a Quote
+                Get Your Free Quote
+              </a>
+              <a
+                href="tel:+19415843165"
+                className="flex-1 flex items-center justify-center gap-2 py-3.5 font-bold text-sm uppercase tracking-wider transition-all duration-150 active:scale-95"
+                style={{
+                  border: "1px solid oklch(0.74 0.155 75 / 0.4)",
+                  color: "oklch(0.88 0.01 250)",
+                  fontFamily: "'Oswald', sans-serif",
+                  fontWeight: 600,
+                  letterSpacing: "0.08em",
+                }}
+              >
+                <Phone className="w-4 h-4" style={{ color: "oklch(0.74 0.155 75)" }} />
+                (941) 584-3165
               </a>
             </div>
           </div>
@@ -233,7 +166,7 @@ export default function ServicePlansSection() {
           className="text-center mt-8 text-sm"
           style={{ color: "oklch(0.55 0.02 250)", fontFamily: "'Open Sans', sans-serif" }}
         >
-          All plans are month-to-month. No contracts. No setup fees. Cancel anytime.
+          Month-to-month service. No contracts. No setup fees. Cancel anytime.
         </p>
       </div>
     </section>
