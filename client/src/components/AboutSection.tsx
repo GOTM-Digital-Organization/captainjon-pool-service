@@ -95,7 +95,7 @@ export default function AboutSection() {
                 className="text-sm leading-relaxed"
                 style={{ color: "oklch(0.40 0.02 250)", fontFamily: "'Open Sans', sans-serif" }}
               >
-                Captain Jon Green leads a tight-knit, family-run crew — currently including his son — built on the same standards of quality and reliability that Jon has delivered across Sarasota and Manatee County for over 15 years. This isn't a franchise or a faceless company. Every pool is treated like it's their own.
+                Captain Jon Green leads a tight-knit, family-run crew — currently including his son Nathan — built on the same standards of quality and reliability that Jon has delivered across Sarasota and Manatee County for over 15 years. This isn't a franchise or a faceless company. Every pool is treated like it's their own.
               </p>
               <p
                 className="text-sm leading-relaxed"
