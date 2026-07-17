@@ -24,9 +24,9 @@ const faqs = [
       "No contracts — ever. Captain Jon's Pool Service operates on a simple month-to-month basis. We earn your business every single week with quality service, not fine print. Cancel anytime with no penalties.",
   },
   {
-    question: "What is the Chemical Delivery subscription and how does it work?",
+    question: "What is the Weekly Pool Chemical Delivery Service and how does it work?",
     answer:
-      "The $12/month Chemical Delivery service is designed for DIY pool owners who currently drive to Leslie's Pool Supply, Home Depot, or other big box stores to get their water tested and buy chemicals. Instead, simply text Captain Jon a photo of your pool test strip each week. He'll analyze the results and personally deliver the exact chemicals you need — right to your door — with clear written instructions on how to apply them. No more trips. No more guessing.",
+      "The Weekly Pool Chemical Delivery Service is designed for DIY pool owners who currently drive to Leslie's Pool Supply, Home Depot, or other big box stores to get their water tested and buy chemicals. Instead, simply text Captain Jon a photo of your pool test strip each week. He'll analyze the results and personally deliver the exact chemicals your pool needs — right to your door — with clear written instructions on how to apply them. The service fee is just $12/month, plus you pay only for the chemicals your pool actually needs. No more trips. No more guessing. No more buying the wrong stuff.",
   },
   {
     question: "What areas do you serve in Sarasota and Manatee County?",

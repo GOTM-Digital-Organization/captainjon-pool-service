@@ -38,7 +38,7 @@ const benefits = [
   "Expert analysis of your actual water test results",
   "Chemicals delivered with step-by-step instructions",
   "Save time every single week",
-  "Only $12/month — less than one store trip",
+  "Just $12/month service fee + cost of chemicals",
   "Cancel anytime, no contracts",
   "Text-based — quick and easy",
 ];
@@ -71,15 +71,15 @@ export default function ChemicalDeliverySection() {
             className="text-4xl md:text-5xl font-bold text-white mb-4"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
-            Pool Chemical Delivery
+            Weekly Pool Chemical
             <br />
-            <span style={{ color: "oklch(0.74 0.155 75)" }}>For DIY Pool Owners</span>
+            <span style={{ color: "oklch(0.74 0.155 75)" }}>Delivery Service</span>
           </h2>
           <p
             className="text-lg"
             style={{ color: "oklch(0.80 0.01 250)", fontFamily: "'Open Sans', sans-serif", lineHeight: 1.7 }}
           >
-            Tired of driving to Leslie's Pool Store or Home Depot every week? Skip the trip. Text Captain Jon a photo of your pool test strip and he'll deliver the exact chemicals you need — with instructions — right to your door.
+            Tired of driving to Leslie's Pool Store or Home Depot every week? Skip the trip. Text Captain Jon a photo of your pool test strip and he'll deliver the exact chemicals your pool needs — with instructions — right to your door. Just $12/month service fee plus the cost of your chemicals.
           </p>
           <div className="mt-6 flex items-center justify-center gap-4 flex-wrap">
             <div
@@ -89,8 +89,8 @@ export default function ChemicalDeliverySection() {
               $12
             </div>
             <div style={{ color: "oklch(0.80 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}>
-              <div className="text-xl font-semibold text-white">per month</div>
-              <div className="text-sm">Monthly subscription · Cancel anytime</div>
+              <div className="text-xl font-semibold text-white">per month service fee</div>
+              <div className="text-sm">+ cost of chemicals · Cancel anytime</div>
             </div>
           </div>
         </div>
@@ -165,7 +165,7 @@ export default function ChemicalDeliverySection() {
                 className="btn-gold flex items-center justify-center gap-2"
               >
                 <MessageSquare className="w-4 h-4" />
-                Text to Subscribe — $12/mo
+                Text to Sign Up — $12/mo + chems
               </a>
               <a
                 href="#contact"
@@ -178,7 +178,7 @@ export default function ChemicalDeliverySection() {
               className="mt-4 text-xs"
               style={{ color: "oklch(0.55 0.02 250)", fontFamily: "'Open Sans', sans-serif" }}
             >
-              * Service available in Sarasota & Manatee County. Chemicals not included in subscription price — you pay only for the chemicals you need.
+              * $12/month service fee covers delivery & chemical analysis. You pay only for the chemicals your pool actually needs — no markup, no guessing.
             </p>
           </div>
 

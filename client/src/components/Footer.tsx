@@ -92,7 +92,7 @@ export default function Footer() {
                 "Filter Maintenance",
                 "Algae Removal",
                 "Salt Cell Cleaning",
-                "Chemical Delivery ($12/mo)",
+                "Pool Chem Delivery ($12/mo + chems)",
               ].map((item) => (
                 <li key={item}>
                   <a
