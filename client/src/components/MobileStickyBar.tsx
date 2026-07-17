@@ -49,7 +49,7 @@ export default function MobileStickyBar() {
 
         {/* Text for Chem Delivery button */}
         <a
-          href="sms:+19415843165&body=Hi Captain Jon! I'd like to sign up for the $45/month Chemical Delivery service."
+          href="sms:+19415843165&body=Hi Captain Jon! I'd like to sign up for the $12/month Chemical Delivery service."
           className="flex items-center justify-center gap-2.5 py-4 transition-all duration-150 active:scale-95"
           style={{
             backgroundColor: "oklch(0.18 0.04 250)",

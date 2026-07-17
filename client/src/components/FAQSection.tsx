@@ -26,7 +26,7 @@ const faqs = [
   {
     question: "What is the Chemical Delivery subscription and how does it work?",
     answer:
-      "The $45/month Chemical Delivery service is designed for DIY pool owners who currently drive to Leslie's Pool Supply, Home Depot, or other big box stores to get their water tested and buy chemicals. Instead, simply text Captain Jon a photo of your pool test strip each week. He'll analyze the results and personally deliver the exact chemicals you need — right to your door — with clear written instructions on how to apply them. No more trips. No more guessing.",
+      "The $12/month Chemical Delivery service is designed for DIY pool owners who currently drive to Leslie's Pool Supply, Home Depot, or other big box stores to get their water tested and buy chemicals. Instead, simply text Captain Jon a photo of your pool test strip each week. He'll analyze the results and personally deliver the exact chemicals you need — right to your door — with clear written instructions on how to apply them. No more trips. No more guessing.",
   },
   {
     question: "What areas do you serve in Sarasota and Manatee County?",

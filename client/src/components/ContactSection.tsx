@@ -24,7 +24,7 @@ const cities = [
 const services = [
   "Weekly Pool Service (Silver — 1x/week)",
   "Weekly Pool Service (Gold — 2x/week)",
-  "Chemical Delivery Subscription ($45/mo)",
+  "Chemical Delivery Subscription ($12/mo)",
   "Pool Repair",
   "Green Pool / Algae Cleanup",
   "Other",

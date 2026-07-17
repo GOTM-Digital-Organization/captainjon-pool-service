@@ -1,5 +1,5 @@
 /**
- * ChemicalDeliverySection — NEW $45/month chemical delivery service
+ * ChemicalDeliverySection — NEW $12/month chemical delivery service
  * Featured prominently — dark navy background to stand out
  */
 
@@ -38,7 +38,7 @@ const benefits = [
   "Expert analysis of your actual water test results",
   "Chemicals delivered with step-by-step instructions",
   "Save time every single week",
-  "Only $45/month — less than one store trip",
+  "Only $12/month — less than one store trip",
   "Cancel anytime, no contracts",
   "Text-based — quick and easy",
 ];
@@ -86,7 +86,7 @@ export default function ChemicalDeliverySection() {
               className="text-5xl font-black"
               style={{ fontFamily: "'Montserrat', sans-serif", color: "oklch(0.74 0.155 75)" }}
             >
-              $45
+              $12
             </div>
             <div style={{ color: "oklch(0.80 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}>
               <div className="text-xl font-semibold text-white">per month</div>
@@ -161,11 +161,11 @@ export default function ChemicalDeliverySection() {
             </ul>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
-                href="sms:+19415843165?body=Hi%20Captain%20Jon!%20I%27m%20interested%20in%20the%20%2445%2Fmonth%20chemical%20delivery%20service."
+                href="sms:+19415843165?body=Hi%20Captain%20Jon!%20I%27m%20interested%20in%20the%20%2412%2Fmonth%20chemical%20delivery%20service."
                 className="btn-gold flex items-center justify-center gap-2"
               >
                 <MessageSquare className="w-4 h-4" />
-                Text to Subscribe — $45/mo
+                Text to Subscribe — $12/mo
               </a>
               <a
                 href="#contact"
@@ -203,7 +203,7 @@ export default function ChemicalDeliverySection() {
                 className="text-2xl font-black leading-none"
                 style={{ fontFamily: "'Montserrat', sans-serif", color: "oklch(0.13 0.04 250)" }}
               >
-                $45
+                $12
               </span>
               <span
                 className="text-xs font-bold leading-tight"
