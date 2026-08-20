@@ -32,7 +32,7 @@ export default function HeroSection() {
       {/* Background image — Captain Jon cleaning a pool */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/manus-storage/captain-jon-hero-v2_9244cfca.jpg"
+          src="/images/hero-captain-jon.webp"
           alt="Captain Jon Green cleaning a pool in Sarasota Florida"
           className="w-full h-full object-cover"
           style={{ opacity: 0.75 }}

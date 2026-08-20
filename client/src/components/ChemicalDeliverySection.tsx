@@ -189,7 +189,7 @@ export default function ChemicalDeliverySection() {
               style={{ boxShadow: "0 20px 60px oklch(0 0 0 / 0.4)" }}
             >
               <img
-                src="/manus-storage/chemical-delivery-service_482a5b15.jpg"
+                src="/images/chemical-delivery.jpg"
                 alt="Captain Jon delivering pool chemicals to a Sarasota home"
                 className="w-full h-80 object-cover"
               />

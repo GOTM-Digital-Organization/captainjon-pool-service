@@ -35,7 +35,7 @@ export default function AboutSection() {
             />
             <div className="relative z-10 overflow-hidden" style={{ borderRadius: "0" }}>
               <img
-                src="/manus-storage/captain-jon-about-v2_050c44ee.jpg"
+                src="/images/about-captain-jon.webp"
                 alt="Captain Jon Green — Pool Service Professional, Sarasota FL"
                 className="w-full object-cover"
                 style={{ maxHeight: "520px", objectPosition: "top center" }}

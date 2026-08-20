@@ -33,7 +33,7 @@ export default function MaintenanceChecklist() {
           <div className="relative order-2 lg:order-1">
             <div className="rounded-xl overflow-hidden" style={{ boxShadow: "0 12px 48px oklch(0 0 0 / 0.12)" }}>
               <img
-                src="/manus-storage/pool-service-team_846b7475.jpg"
+                src="/images/pool-service-team.webp"
                 alt="Captain Jon's pool technician performing maintenance checklist"
                 className="w-full h-96 object-cover"
               />
