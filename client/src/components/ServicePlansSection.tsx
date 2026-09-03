@@ -144,7 +144,7 @@ export default function ServicePlansSection() {
                 Get Your Free Quote
               </a>
               <a
-                href="tel:+19415843165"
+                href="tel:+19417043699"
                 className="flex-1 flex items-center justify-center gap-2 py-3.5 font-bold text-sm uppercase tracking-wider transition-all duration-150 active:scale-95"
                 style={{
                   border: "1px solid oklch(0.74 0.155 75 / 0.4)",
@@ -155,7 +155,7 @@ export default function ServicePlansSection() {
                 }}
               >
                 <Phone className="w-4 h-4" style={{ color: "oklch(0.74 0.155 75)" }} />
-                (941) 584-3165
+                (941) 704-3699
               </a>
             </div>
           </div>

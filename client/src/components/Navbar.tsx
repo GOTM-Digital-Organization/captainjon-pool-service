@@ -97,7 +97,7 @@ export default function Navbar() {
           {/* Phone CTA */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="tel:+19415843165"
+              href="tel:+19417043699"
               className="flex items-center gap-2 px-4 py-2 rounded-sm text-sm font-bold transition-all duration-200 hover:scale-105"
               style={{
                 backgroundColor: "oklch(0.74 0.155 75)",
@@ -107,7 +107,7 @@ export default function Navbar() {
               }}
             >
               <Phone className="w-4 h-4" />
-              (941) 584-3165
+              (941) 704-3699
             </a>
           </div>
 
@@ -144,7 +144,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="tel:+19415843165"
+              href="tel:+19417043699"
               className="flex items-center justify-center gap-2 py-3 rounded-sm text-base font-bold mt-2"
               style={{
                 backgroundColor: "oklch(0.74 0.155 75)",
@@ -154,7 +154,7 @@ export default function Navbar() {
               }}
             >
               <Phone className="w-5 h-5" />
-              Call (941) 584-3165
+              Call (941) 704-3699
             </a>
           </div>
         </div>

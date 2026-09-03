@@ -112,12 +112,12 @@ export default function HeroSection() {
               Get Your Free Quote
             </a>
             <a
-              href="tel:+19415843165"
+              href="tel:+19417043699"
               className="btn-outline-white flex items-center gap-2"
               style={{ fontSize: "0.95rem", padding: "0.875rem 2rem" }}
             >
               <Phone className="w-4 h-4" />
-              (941) 584-3165
+              (941) 704-3699
             </a>
           </div>
 

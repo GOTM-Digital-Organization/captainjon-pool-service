@@ -23,7 +23,7 @@ export default function MobileStickyBar() {
       >
         {/* Call button */}
         <a
-          href="tel:+19415843165"
+          href="tel:+19417043699"
           className="flex items-center justify-center gap-2.5 py-4 transition-all duration-150 active:scale-95"
           style={{
             backgroundColor: "oklch(0.74 0.155 75)",
@@ -42,14 +42,14 @@ export default function MobileStickyBar() {
               className="text-xs mt-0.5 opacity-80"
               style={{ fontFamily: "'Open Sans', sans-serif" }}
             >
-              (941) 584-3165
+              (941) 704-3699
             </span>
           </div>
         </a>
 
         {/* Text for Chem Delivery button */}
         <a
-          href="sms:+19415843165&body=Hi Captain Jon! I'd like to sign up for the $12/month Chemical Delivery service."
+          href="sms:+19417043699&body=Hi Captain Jon! I'd like to sign up for the $12/month Chemical Delivery service."
           className="flex items-center justify-center gap-2.5 py-4 transition-all duration-150 active:scale-95"
           style={{
             backgroundColor: "oklch(0.18 0.04 250)",

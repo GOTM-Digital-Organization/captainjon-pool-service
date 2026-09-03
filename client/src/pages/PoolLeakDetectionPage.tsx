@@ -22,7 +22,7 @@ import {
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const phoneHref = "tel:+19415843165";
+const phoneHref = "tel:+19417043699";
 
 const warningSigns = [
   "Your pool loses more than ¼ inch of water a day.",
@@ -147,7 +147,7 @@ export default function PoolLeakDetectionPage() {
     const ogUrl = document.querySelector<HTMLMetaElement>('meta[property="og:url"]')?.content;
 
     document.title = "Pool Leak Detection Sarasota & Manatee County | Captain Jon's Pool Service";
-    setMeta('meta[name="description"]', "Pool leak detection and repair for Sarasota and Manatee County homeowners. Captain Jon’s team uses non-invasive dye, pressure, and electronic testing. Serving Sarasota, Bradenton, Parrish, Lakewood Ranch, Venice and more. Call (941) 584-3165.");
+    setMeta('meta[name="description"]', "Pool leak detection and repair for Sarasota and Manatee County homeowners. Captain Jon’s team uses non-invasive dye, pressure, and electronic testing. Serving Sarasota, Bradenton, Parrish, Lakewood Ranch, Venice and more. Call (941) 704-3699.");
     setMeta('meta[property="og:title"]', "Pool Leak Detection & Repair | Captain Jon's Pool Service");
     setMeta('meta[property="og:description"]', "Suspect a pool leak? Captain Jon’s team uses non-invasive diagnostics to find and repair leaks across Sarasota and Manatee County.");
     setMeta('meta[property="og:url"]', "https://captainjonspoolservice.com/pool-leak-detection");
@@ -191,7 +191,7 @@ export default function PoolLeakDetectionPage() {
                 If your pool is losing water, Captain Jon’s local team uses non-invasive diagnostics to find the source—without guessing, unnecessary deck damage, or draining your pool in most cases.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href={phoneHref} className="btn-gold inline-flex items-center gap-2 px-7 py-4"><Phone className="w-4 h-4" /> Call (941) 584-3165</a>
+                <a href={phoneHref} className="btn-gold inline-flex items-center gap-2 px-7 py-4"><Phone className="w-4 h-4" /> Call (941) 704-3699</a>
                 <a href="/#contact" className="btn-outline-white inline-flex items-center gap-2 px-7 py-4">Request a Leak Quote <ArrowRight className="w-4 h-4" /></a>
               </div>
               <div className="flex flex-wrap gap-x-6 gap-y-2 mt-9 text-sm" style={{ color: "oklch(0.75 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}>
@@ -257,7 +257,7 @@ export default function PoolLeakDetectionPage() {
         </section>
 
         <section className="py-20 md:py-28" style={{ backgroundColor: "oklch(0.13 0.04 250)" }}>
-          <div className="container text-center max-w-4xl"><Anchor className="w-10 h-10 mx-auto mb-6" style={{ color: "oklch(0.74 0.155 75)" }} /><h2 className="text-white font-black leading-tight mb-5" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "clamp(2.2rem, 5vw, 4.2rem)", letterSpacing: "-0.045em" }}>Your Pool Should Hold Water. <span style={{ color: "oklch(0.74 0.155 75)" }}>Let&apos;s Find Out Why It Isn&apos;t.</span></h2><p className="text-lg leading-relaxed max-w-2xl mx-auto mb-8" style={{ color: "oklch(0.78 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}>Call Captain Jon’s team to discuss the symptoms, request a quote, and schedule pool leak detection in Sarasota or Manatee County.</p><div className="flex flex-wrap justify-center gap-4"><a href={phoneHref} className="btn-gold inline-flex items-center gap-2 px-7 py-4"><Phone className="w-4 h-4" /> Call (941) 584-3165</a><a href="/#contact" className="btn-outline-white inline-flex items-center gap-2 px-7 py-4">Request a Leak Quote <ArrowRight className="w-4 h-4" /></a></div></div>
+          <div className="container text-center max-w-4xl"><Anchor className="w-10 h-10 mx-auto mb-6" style={{ color: "oklch(0.74 0.155 75)" }} /><h2 className="text-white font-black leading-tight mb-5" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "clamp(2.2rem, 5vw, 4.2rem)", letterSpacing: "-0.045em" }}>Your Pool Should Hold Water. <span style={{ color: "oklch(0.74 0.155 75)" }}>Let&apos;s Find Out Why It Isn&apos;t.</span></h2><p className="text-lg leading-relaxed max-w-2xl mx-auto mb-8" style={{ color: "oklch(0.78 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}>Call Captain Jon’s team to discuss the symptoms, request a quote, and schedule pool leak detection in Sarasota or Manatee County.</p><div className="flex flex-wrap justify-center gap-4"><a href={phoneHref} className="btn-gold inline-flex items-center gap-2 px-7 py-4"><Phone className="w-4 h-4" /> Call (941) 704-3699</a><a href="/#contact" className="btn-outline-white inline-flex items-center gap-2 px-7 py-4">Request a Leak Quote <ArrowRight className="w-4 h-4" /></a></div></div>
         </section>
       </main>
       <Footer />

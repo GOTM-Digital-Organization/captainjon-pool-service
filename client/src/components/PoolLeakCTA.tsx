@@ -66,11 +66,11 @@ export default function PoolLeakCTA() {
                 <ArrowRight className="w-4 h-4" />
               </a>
               <a
-                href="tel:+19415843165"
+                href="tel:+19417043699"
                 className="text-center text-sm"
                 style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Open Sans', sans-serif" }}
               >
-                Call (941) 584-3165
+                Call (941) 704-3699
               </a>
             </div>
           </div>

@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "How do I know if my pool needs a leak test?",
     answer:
-      "If your pool is losing more than ¼ inch of water per day beyond normal evaporation, you may have a leak. Captain Jon’s team provides non-invasive homeowner pool leak detection and repair throughout Sarasota and Manatee County. Visit our Pool Leak Detection page or call (941) 584-3165 to discuss the symptoms.",
+      "If your pool is losing more than ¼ inch of water per day beyond normal evaporation, you may have a leak. Captain Jon’s team provides non-invasive homeowner pool leak detection and repair throughout Sarasota and Manatee County. Visit our Pool Leak Detection page or call (941) 704-3699 to discuss the symptoms.",
   },
   {
     question: "Do you service saltwater pools?",
@@ -56,7 +56,7 @@ const faqs = [
   {
     question: "How do I get started with weekly pool service?",
     answer:
-      "Getting started is easy. Call or text Captain Jon at (941) 584-3165, or fill out the contact form on this page. We'll schedule a free on-site assessment, give you a flat-rate quote, and can typically begin service within the same week.",
+      "Getting started is easy. Call or text Captain Jon at (941) 704-3699, or fill out the contact form on this page. We'll schedule a free on-site assessment, give you a flat-rate quote, and can typically begin service within the same week.",
   },
 ];
 
@@ -199,7 +199,7 @@ export default function FAQSection() {
               </p>
             </div>
             <a
-              href="tel:+19415843165"
+              href="tel:+19417043699"
               className="flex-shrink-0 inline-flex items-center gap-2 px-5 py-2.5 font-bold text-sm uppercase tracking-wider transition-all duration-150 active:scale-95"
               style={{
                 backgroundColor: "oklch(0.74 0.155 75)",
@@ -208,7 +208,7 @@ export default function FAQSection() {
                 letterSpacing: "0.08em",
               }}
             >
-              (941) 584-3165
+              (941) 704-3699
             </a>
           </div>
         </div>

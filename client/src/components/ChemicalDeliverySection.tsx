@@ -161,7 +161,7 @@ export default function ChemicalDeliverySection() {
             </ul>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
-                href="sms:+19415843165?body=Hi%20Captain%20Jon!%20I%27m%20interested%20in%20the%20%2412%2Fmonth%20chemical%20delivery%20service."
+                href="sms:+19417043699?body=Hi%20Captain%20Jon!%20I%27m%20interested%20in%20the%20%2412%2Fmonth%20chemical%20delivery%20service."
                 className="btn-gold flex items-center justify-center gap-2"
               >
                 <MessageSquare className="w-4 h-4" />

@@ -7,3 +7,5 @@
 - [x] Generate a canonical social-share image for the consolidated service offering.
 - [x] Correct the mobile Pool Leak Detection hero crop.
 - [x] Update Open Graph and Twitter metadata, verify, and publish.
+- [x] Replace every displayed phone number and click-to-call/text link with 941-704-3699.
+- [x] Validate the new number throughout the site and publish the change.

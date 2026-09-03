@@ -111,7 +111,7 @@ export default function ContactSection() {
                 Call or Text Captain Jon Directly
               </p>
               <a
-                href="tel:+19415843165"
+                href="tel:+19417043699"
                 className="flex items-center gap-3 text-white hover:opacity-80 transition-opacity"
               >
                 <Phone className="w-5 h-5 flex-shrink-0" style={{ color: "oklch(0.74 0.155 75)" }} />
@@ -119,7 +119,7 @@ export default function ContactSection() {
                   className="text-2xl font-bold"
                   style={{ fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  (941) 584-3165
+                  (941) 704-3699
                 </span>
               </a>
             </div>
@@ -129,7 +129,7 @@ export default function ContactSection() {
               {
                 icon: MessageSquare,
                 label: "Text for Chemical Delivery",
-                value: "Text a photo of your test strip to (941) 584-3165",
+                value: "Text a photo of your test strip to (941) 704-3699",
               },
               {
                 icon: Mail,
@@ -213,9 +213,9 @@ export default function ContactSection() {
                   Message Sent!
                 </h3>
                 <p style={{ color: "oklch(0.45 0.02 250)", fontFamily: "'Open Sans', sans-serif" }}>
-                  Captain Jon will be in touch within 24 hours. For faster response, call or text (941) 584-3165.
+                  Captain Jon will be in touch within 24 hours. For faster response, call or text (941) 704-3699.
                 </p>
-                <a href="tel:+19415843165" className="btn-gold mt-2">
+                <a href="tel:+19417043699" className="btn-gold mt-2">
                   Call Now for Fastest Response
                 </a>
               </div>
@@ -265,7 +265,7 @@ export default function ContactSection() {
                       required
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="(941) 555-0000"
+                      placeholder="(941) 704-3699"
                       className="w-full px-4 py-2.5 rounded-sm border text-sm outline-none transition-colors"
                       style={{
                         borderColor: "oklch(0.88 0.008 250)",
@@ -389,7 +389,7 @@ export default function ContactSection() {
                   className="text-xs text-center"
                   style={{ color: "oklch(0.60 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}
                 >
-                  Or call/text directly: <a href="tel:+19415843165" className="underline">(941) 584-3165</a>. We respond within 24 hours.
+                  Or call/text directly: <a href="tel:+19417043699" className="underline">(941) 704-3699</a>. We respond within 24 hours.
                 </p>
               </form>
             )}

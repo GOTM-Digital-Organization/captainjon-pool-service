@@ -58,12 +58,12 @@ export default function Footer() {
             </p>
             <div className="space-y-2">
               <a
-                href="tel:+19415843165"
+                href="tel:+19417043699"
                 className="flex items-center gap-2 text-sm hover:opacity-80 transition-opacity"
                 style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Open Sans', sans-serif" }}
               >
                 <Phone className="w-4 h-4" />
-                (941) 584-3165
+                (941) 704-3699
               </a>
               <a
                 href="mailto:jongreen67@gmail.com"
@@ -178,12 +178,12 @@ export default function Footer() {
                 <ArrowRight className="w-3 h-3" />
               </a>
               <a
-                href="tel:+19415843165"
+                href="tel:+19417043699"
                 className="flex items-center gap-1.5 text-xs mt-1 hover:opacity-80 transition-opacity"
                 style={{ color: "oklch(0.65 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}
               >
                 <Phone className="w-3 h-3" />
-                (941) 584-3165
+                (941) 704-3699
               </a>
             </div>
           </div>
