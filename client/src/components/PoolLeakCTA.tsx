@@ -1,8 +1,9 @@
 /**
- * PoolLeakCTA — Cross-promotion for poolleaksarasota.com
+ * PoolLeakCTA — Internal homeowner leak detection pathway.
+ * Gulf Coast Authority motif: navy service panel, gold anchor details, no real-estate inspections.
  */
 
-import { ExternalLink, Droplets } from "lucide-react";
+import { ArrowRight, Droplets } from "lucide-react";
 
 export default function PoolLeakCTA() {
   return (
@@ -45,7 +46,7 @@ export default function PoolLeakCTA() {
                 className="text-base mb-2"
                 style={{ color: "oklch(0.80 0.01 250)", fontFamily: "'Open Sans', sans-serif", lineHeight: 1.6 }}
               >
-                Captain Jon's also offers professional <strong className="text-white">pool leak detection and repair</strong> throughout Sarasota and Manatee County. Using advanced non-invasive technology — no draining, no deck destruction.
+                Captain Jon&apos;s team provides professional <strong className="text-white">pool leak detection and repair</strong> throughout Sarasota and Manatee County. We use non-invasive diagnostics to find the source and explain the repair options clearly.
               </p>
               <p
                 className="text-sm"
@@ -58,20 +59,18 @@ export default function PoolLeakCTA() {
             {/* CTA */}
             <div className="flex flex-col gap-3 flex-shrink-0">
               <a
-                href="https://poolleaksarasota.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/pool-leak-detection"
                 className="btn-gold flex items-center gap-2 whitespace-nowrap"
               >
                 Pool Leak Detection
-                <ExternalLink className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4" />
               </a>
               <a
-                href="tel:+19412533447"
+                href="tel:+19415843165"
                 className="text-center text-sm"
                 style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Open Sans', sans-serif" }}
               >
-                Call (941) 253-3447
+                Call (941) 584-3165
               </a>
             </div>
           </div>

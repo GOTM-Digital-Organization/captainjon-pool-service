@@ -1,7 +1,7 @@
 /**
  * FAQSection — Pool Service FAQ
  * Gulf Coast Authority: navy + gold, accordion layout
- * SEO-optimized questions for Sarasota & Manatee County pool service
+ * SEO-optimized questions for Sarasota & Manatee County pool service and homeowner leak detection.
  */
 
 import { useState } from "react";
@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "How do I know if my pool needs a leak test?",
     answer:
-      "If your pool is losing more than ¼ inch of water per day (beyond normal evaporation), you may have a leak. Captain Jon also operates Pool Leak Sarasota — the area's trusted non-invasive pool leak detection service. Visit poolleaksarasota.com or call (941) 253-3447 for a free consultation.",
+      "If your pool is losing more than ¼ inch of water per day beyond normal evaporation, you may have a leak. Captain Jon’s team provides non-invasive homeowner pool leak detection and repair throughout Sarasota and Manatee County. Visit our Pool Leak Detection page or call (941) 584-3165 to discuss the symptoms.",
   },
   {
     question: "Do you service saltwater pools?",
@@ -100,7 +100,7 @@ export default function FAQSection() {
             className="text-sm leading-relaxed"
             style={{ color: "oklch(0.45 0.02 250)", fontFamily: "'Open Sans', sans-serif" }}
           >
-            Everything you need to know about weekly pool cleaning, chemical delivery, and pool care in Southwest Florida.
+            Everything you need to know about weekly pool cleaning, chemical delivery, homeowner pool leak detection, and pool care in Southwest Florida.
           </p>
         </div>
 
@@ -167,29 +167,7 @@ export default function FAQSection() {
                       paddingTop: "12px",
                     }}
                   >
-                    {faq.answer.includes("poolleaksarasota.com") ? (
-                      <>
-                        {faq.answer.split("poolleaksarasota.com").map((part, j, arr) =>
-                          j < arr.length - 1 ? (
-                            <span key={j}>
-                              {part}
-                              <a
-                                href="https://poolleaksarasota.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{ color: "oklch(0.74 0.155 75)", fontWeight: 600 }}
-                              >
-                                poolleaksarasota.com
-                              </a>
-                            </span>
-                          ) : (
-                            <span key={j}>{part}</span>
-                          )
-                        )}
-                      </>
-                    ) : (
-                      faq.answer
-                    )}
+                    {faq.answer}
                   </div>
                 </div>
               </div>

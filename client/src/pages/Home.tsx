@@ -1,7 +1,7 @@
 /**
  * Captain Jon's Pool Service — Home Page
  * Design: Gulf Coast Authority (Navy + Gold)
- * Congruent with: poolleaksarasota.com
+ * Complete homeowner pool care: weekly service, chemical delivery, and leak detection.
  */
 
 import Navbar from "@/components/Navbar";

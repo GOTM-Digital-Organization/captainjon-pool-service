@@ -1,9 +1,9 @@
 /**
  * Footer — Captain Jon's Pool Service
- * Navy background, gold accents, cross-links to poolleaksarasota.com
+ * Navy background, gold accents, internal links for all Captain Jon's homeowner services.
  */
 
-import { Phone, Mail, Anchor, ExternalLink } from "lucide-react";
+import { Phone, Mail, Anchor, ArrowRight } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              {/* Square navy box with white anchor — matches poolleaksarasota.com */}
+              {/* Square navy box with white anchor */}
               <div
                 className="flex items-center justify-center flex-shrink-0"
                 style={{
@@ -93,10 +93,11 @@ export default function Footer() {
                 "Algae Removal",
                 "Salt Cell Cleaning",
                 "Pool Chem Delivery ($12/mo + chems)",
+                "Pool Leak Detection & Repair",
               ].map((item) => (
                 <li key={item}>
                   <a
-                    href="#services"
+                    href={item.includes("Leak") ? "/pool-leak-detection" : "/#services"}
                     className="text-sm hover:opacity-80 transition-opacity"
                     style={{ color: "oklch(0.65 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}
                   >
@@ -130,7 +131,7 @@ export default function Footer() {
               ].map((area) => (
                 <li key={area}>
                   <a
-                    href="#service-areas"
+                    href="/#service-areas"
                     className="text-sm hover:opacity-80 transition-opacity"
                     style={{ color: "oklch(0.65 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}
                   >
@@ -141,13 +142,13 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Pool Leak Detection cross-promo */}
+          {/* Pool Leak Detection internal service */}
           <div>
             <h4
               className="text-white font-bold text-sm uppercase tracking-wider mb-4"
               style={{ fontFamily: "'Oswald', sans-serif" }}
             >
-              Also From Captain Jon's
+              Pool Leak Detection
             </h4>
             <div
               className="rounded-xl p-4 border mb-4"
@@ -169,22 +170,20 @@ export default function Footer() {
                 Is your pool losing water? Captain Jon's also specializes in non-invasive pool leak detection & repair throughout Sarasota & Manatee County.
               </p>
               <a
-                href="https://poolleaksarasota.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/pool-leak-detection"
                 className="flex items-center gap-1.5 text-xs font-bold hover:opacity-80 transition-opacity"
                 style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Montserrat', sans-serif" }}
               >
-                poolleaksarasota.com
-                <ExternalLink className="w-3 h-3" />
+                Learn about leak detection
+                <ArrowRight className="w-3 h-3" />
               </a>
               <a
-                href="tel:+19412533447"
+                href="tel:+19415843165"
                 className="flex items-center gap-1.5 text-xs mt-1 hover:opacity-80 transition-opacity"
                 style={{ color: "oklch(0.65 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}
               >
                 <Phone className="w-3 h-3" />
-                (941) 253-3447
+                (941) 584-3165
               </a>
             </div>
           </div>

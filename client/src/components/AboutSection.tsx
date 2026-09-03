@@ -107,7 +107,7 @@ export default function AboutSection() {
                 className="text-sm leading-relaxed"
                 style={{ color: "oklch(0.40 0.02 250)", fontFamily: "'Open Sans', sans-serif" }}
               >
-                Captain Jon also runs <a href="https://poolleaksarasota.com" target="_blank" rel="noopener noreferrer" style={{ color: "oklch(0.74 0.155 75)", fontWeight: 600 }}>Pool Leak Sarasota</a> — the area's trusted non-invasive pool leak detection service. One trusted name. Two essential services.
+                Captain Jon&apos;s team also provides <a href="/pool-leak-detection" style={{ color: "oklch(0.74 0.155 75)", fontWeight: 600 }}>non-invasive pool leak detection and repair</a> for homeowners across Sarasota and Manatee County. One trusted name. Two essential services.
               </p>
             </div>
 

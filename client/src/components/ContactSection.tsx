@@ -24,6 +24,7 @@ const cities = [
 const services = [
   "Weekly Pool Service (Gold Plan)",
   "Weekly Pool Chemical Delivery Service ($12/mo + chems)",
+  "Pool Leak Detection & Repair",
   "Pool Repair",
   "Green Pool / Algae Cleanup",
   "Other",
@@ -85,10 +86,10 @@ export default function ContactSection() {
             className="text-4xl md:text-5xl font-bold mb-4"
             style={{ fontFamily: "'Montserrat', sans-serif", color: "oklch(0.18 0.04 250)" }}
           >
-            Request Your Free Pool Service Quote
+            Request Your Free Pool Service or Leak Detection Quote
           </h2>
           <p style={{ color: "oklch(0.45 0.02 250)", fontFamily: "'Open Sans', sans-serif", lineHeight: 1.7 }}>
-            Serving Sarasota, Bradenton, Parrish, Lakewood Ranch, Venice, and all of Sarasota & Manatee County. Call Captain Jon directly or fill out the form below.
+            Serving Sarasota, Bradenton, Parrish, Lakewood Ranch, Venice, and all of Sarasota & Manatee County. Request weekly service, chemical delivery, or homeowner pool leak detection.
           </p>
         </div>
 
@@ -364,7 +365,7 @@ export default function ContactSection() {
                     value={formData.message}
                     onChange={handleChange}
                     rows={4}
-                    placeholder="Pool size, current issues, how often it's been serviced, etc."
+                      placeholder="Pool size, current issue, water loss symptoms, or the service you need."
                     className="w-full px-4 py-2.5 rounded-sm border text-sm outline-none transition-colors resize-none"
                     style={{
                       borderColor: "oklch(0.88 0.008 250)",

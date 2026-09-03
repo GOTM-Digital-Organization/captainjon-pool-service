@@ -1,15 +1,17 @@
 /**
  * Navbar — Gulf Coast Authority theme
  * Transparent over hero, transitions to navy on scroll
- * Congruent with poolleaksarasota.com
+ * Internal navigation for Captain Jon's complete homeowner pool-service offering.
  */
 
 import { useState, useEffect } from "react";
 import { Phone, Menu, X, Anchor } from "lucide-react";
+import { useLocation } from "wouter";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [location] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 60);
@@ -20,12 +22,15 @@ export default function Navbar() {
   const navLinks = [
     { label: "Services", href: "#services" },
     { label: "Chem Delivery", href: "#chemical-delivery" },
+    { label: "Leak Detection", href: "/pool-leak-detection" },
     { label: "Service Plans", href: "#plans" },
     { label: "Service Areas", href: "#service-areas" },
     { label: "About", href: "#about" },
     { label: "FAQ", href: "#faq" },
     { label: "Contact", href: "#contact" },
   ];
+
+  const navigationHref = (href: string) => (href.startsWith("#") && location !== "/" ? `/${href}` : href);
 
   return (
     <header
@@ -38,9 +43,9 @@ export default function Navbar() {
     >
       <div className="container">
         <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo — matches poolleaksarasota.com: square navy box + white anchor + text lockup */}
+          {/* Logo — square navy box, white anchor, and high-contrast text lockup */}
           <a href="/" className="flex items-center gap-3 group">
-            {/* Square navy box with white anchor — identical to poolleaksarasota.com */}
+            {/* Square navy box with white anchor */}
             <div
               className="flex items-center justify-center flex-shrink-0"
               style={{
@@ -80,22 +85,13 @@ export default function Navbar() {
             {navLinks.map((link) => (
               <a
                 key={link.label}
-                href={link.href}
+                href={navigationHref(link.href)}
                 className="text-white/80 hover:text-white text-sm font-medium transition-colors duration-200 tracking-wide"
                 style={{ fontFamily: "'Open Sans', sans-serif" }}
               >
                 {link.label}
               </a>
             ))}
-            <a
-              href="https://poolleaksarasota.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white/60 hover:text-white text-sm font-medium transition-colors duration-200 tracking-wide border-l border-white/20 pl-6"
-              style={{ fontFamily: "'Open Sans', sans-serif" }}
-            >
-              Pool Leak Detection →
-            </a>
           </nav>
 
           {/* Phone CTA */}
@@ -139,7 +135,7 @@ export default function Navbar() {
             {navLinks.map((link) => (
               <a
                 key={link.label}
-                href={link.href}
+                href={navigationHref(link.href)}
                 className="text-white/80 hover:text-white py-2 text-base font-medium transition-colors"
                 style={{ fontFamily: "'Open Sans', sans-serif" }}
                 onClick={() => setMobileOpen(false)}
@@ -147,15 +143,6 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
-            <a
-              href="https://poolleaksarasota.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="py-2 text-base font-medium transition-colors border-t border-white/10 mt-2 pt-4"
-              style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Open Sans', sans-serif" }}
-            >
-              Pool Leak Detection →
-            </a>
             <a
               href="tel:+19415843165"
               className="flex items-center justify-center gap-2 py-3 rounded-sm text-base font-bold mt-2"
