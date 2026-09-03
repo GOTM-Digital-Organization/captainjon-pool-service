@@ -169,12 +169,16 @@ export default function PoolLeakDetectionPage() {
     <div className="min-h-screen" style={{ backgroundColor: "oklch(0.98 0.003 250)" }}>
       <Navbar />
       <main>
-        <section className="relative overflow-hidden pt-32 pb-24 md:pt-40 md:pb-32" style={{ backgroundColor: "oklch(0.13 0.04 250)" }}>
-          <img src="/images/hero-captain-jon.webp" alt="Captain Jon's pool service technician at a Sarasota-area pool" className="absolute inset-0 h-full w-full object-cover object-[70%_center]" />
-          <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, oklch(0.11 0.04 250 / .96) 0%, oklch(0.12 0.04 250 / .86) 42%, oklch(0.13 0.04 250 / .38) 100%)" }} />
+        <section className="relative overflow-hidden pt-0 pb-24 sm:pt-32 md:pt-40 md:pb-32" style={{ backgroundColor: "oklch(0.13 0.04 250)" }}>
+          <img src="/images/hero-captain-jon.webp" alt="Captain Jon's pool service technician at a Sarasota-area pool" className="absolute inset-0 hidden h-full w-full object-cover object-[72%_center] sm:block lg:object-[70%_center]" />
+          <div className="absolute inset-0 hidden sm:block" style={{ background: "linear-gradient(90deg, oklch(0.11 0.04 250 / .96) 0%, oklch(0.12 0.04 250 / .86) 42%, oklch(0.13 0.04 250 / .38) 100%)" }} />
+          <div className="absolute top-16 left-0 right-0 h-64 overflow-hidden sm:hidden">
+            <img src="/images/hero-captain-jon.webp" alt="Captain Jon servicing a Southwest Florida pool" className="h-full w-full object-cover object-[72%_top]" />
+            <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, transparent 45%, oklch(0.13 0.04 250 / .98) 100%)" }} />
+          </div>
           <div className="absolute inset-0" style={{ backgroundImage: "radial-gradient(circle at 15% 20%, oklch(0.74 0.155 75 / .35), transparent 24%), radial-gradient(circle at 88% 62%, oklch(0.54 0.14 230 / .64), transparent 34%)" }} />
-          <div className="absolute -right-10 -bottom-12 opacity-15" aria-hidden="true"><Anchor className="w-96 h-96 text-white" strokeWidth={0.8} /></div>
-          <div className="container relative z-10">
+          <div className="absolute -right-10 -bottom-12 hidden opacity-15 sm:block" aria-hidden="true"><Anchor className="w-96 h-96 text-white" strokeWidth={0.8} /></div>
+          <div className="container relative z-10 pt-[21rem] sm:pt-0">
             <div className="max-w-3xl">
               <div className="flex items-center gap-3 mb-6" style={{ color: "oklch(0.74 0.155 75)" }}>
                 <span className="h-px w-10" style={{ backgroundColor: "currentColor" }} />
