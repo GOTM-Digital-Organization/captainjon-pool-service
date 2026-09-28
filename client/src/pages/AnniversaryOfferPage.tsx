@@ -45,15 +45,15 @@ export default function AnniversaryOfferPage() {
     const ogDescription = document.querySelector<HTMLMetaElement>('meta[property="og:description"]')?.content;
     const ogUrl = document.querySelector<HTMLMetaElement>('meta[property="og:url"]')?.content;
 
-    document.title = "One Month of Pool Service Free | Captain Jon's Anniversary Offer";
+    document.title = "Free 13th Month of Pool Service | Captain Jon's Loyalty Reward";
     setMeta(
       'meta[name="description"]',
-      "Celebrate Captain Jon's one-year business anniversary with one month of weekly pool service free. New Sarasota and Manatee County customers: call (941) 704-3699 to redeem.",
+      "Celebrate Captain Jon's one-year business anniversary with a free 13th month of weekly pool service after 12 consecutive paid months. Call (941) 704-3699 to redeem.",
     );
-    setMeta('meta[property="og:title"]', "One Month of Pool Service Free | Captain Jon's Anniversary Offer");
+    setMeta('meta[property="og:title"]', "Free 13th Month of Pool Service | Captain Jon's Loyalty Reward");
     setMeta(
       'meta[property="og:description"]',
-      "A one-year anniversary thank-you: new Sarasota and Manatee County weekly pool-service customers can redeem one month free by calling Captain Jon.",
+      "A one-year anniversary thank-you: complete 12 consecutive paid months of weekly pool service with Captain Jon and redeem your 13th month free.",
     );
     setMeta('meta[property="og:url"]', "https://captainjonspoolservice.com/anniversary-offer");
     const canonicalElement = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
@@ -88,19 +88,19 @@ export default function AnniversaryOfferPage() {
               <div className="mb-6 inline-flex items-center gap-2 border px-3 py-1.5" style={{ borderColor: "oklch(0.74 0.155 75 / .58)", backgroundColor: "oklch(0.74 0.155 75 / .11)" }}>
                 <Sparkles className="h-4 w-4" style={{ color: "oklch(0.74 0.155 75)" }} />
                 <span className="text-xs font-bold uppercase tracking-[0.18em]" style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Oswald', sans-serif" }}>
-                  One-Year Anniversary Offer
+                  One-Year Loyalty Reward
                 </span>
               </div>
               <h1 className="mb-6 font-black leading-[0.96] text-white" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "clamp(3rem, 6.5vw, 5.55rem)", letterSpacing: "-0.055em" }}>
-                One Month of Pool Service <span style={{ color: "oklch(0.74 0.155 75)" }}>Free.</span>
+                Your 13th Month of Pool Service Is <span style={{ color: "oklch(0.74 0.155 75)" }}>Free.</span>
               </h1>
               <p className="mb-8 max-w-2xl text-lg leading-relaxed md:text-xl" style={{ color: "oklch(0.89 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}>
-                Captain Jon is celebrating one year in business by giving new weekly pool-service customers their first month free. If your pool needs reliable weekly care, this is the time to make the switch.
+                Captain Jon is celebrating one year in business with a thank-you for loyal customers. Complete 12 consecutive paid months of weekly pool service, then receive your 13th month free.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href={phoneHref} className="btn-gold inline-flex items-center gap-2 px-7 py-4" aria-label={`Call Captain Jon at ${phoneDisplay} to redeem the anniversary offer`}>
+                <a href={phoneHref} className="btn-gold inline-flex items-center gap-2 px-7 py-4" aria-label={`Call Captain Jon at ${phoneDisplay} to redeem the loyalty reward`}>
                   <Phone className="h-4 w-4" />
-                  Call to Redeem: {phoneDisplay}
+                  Call {phoneDisplay} to Redeem
                 </a>
                 <a href="#how-to-redeem" className="btn-outline-white inline-flex items-center gap-2 px-7 py-4">
                   See How to Claim <ArrowRight className="h-4 w-4" />
@@ -108,7 +108,7 @@ export default function AnniversaryOfferPage() {
               </div>
               <p className="mt-5 flex items-center gap-2 text-sm" style={{ color: "oklch(0.74 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}>
                 <Clock3 className="h-4 w-4 flex-none" style={{ color: "oklch(0.74 0.155 75)" }} />
-                Call Captain Jon directly and mention the anniversary offer.
+                Call Captain Jon after your 12th paid month and mention the anniversary loyalty reward.
               </p>
             </div>
             <div className="lg:col-span-6">
@@ -131,17 +131,17 @@ export default function AnniversaryOfferPage() {
             <div className="lg:col-span-5">
               <span className="section-label">Simple Phone Redemption</span>
               <h2 className="mt-4 font-black leading-tight" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "clamp(2.25rem, 4.5vw, 4rem)", color: "oklch(0.18 0.04 250)", letterSpacing: "-0.045em" }}>
-                Claim Your First Month <span style={{ color: "oklch(0.74 0.155 75)" }}>Free.</span>
+                Earn Your 13th Month <span style={{ color: "oklch(0.74 0.155 75)" }}>Free.</span>
               </h2>
               <p className="mt-5 max-w-xl leading-relaxed" style={{ color: "oklch(0.45 0.02 250)", fontFamily: "'Open Sans', sans-serif" }}>
-                There is no online code to enter and no complicated form. Call Captain Jon, tell him you found the one-year anniversary offer on Google, and he will confirm availability for your home.
+                There is no online code to enter and no complicated form. After 12 consecutive paid months of weekly service, call Captain Jon and mention the one-year loyalty reward to confirm your free 13th month.
               </p>
             </div>
             <div className="lg:col-span-7 grid gap-px sm:grid-cols-3" style={{ backgroundColor: "oklch(0.84 0.01 250)" }}>
               {[
-                ["01", "Call Captain Jon", "Call the number below and mention the Google anniversary offer."],
-                ["02", "Confirm Your Pool", "Share your address and weekly pool-care needs so Jon can confirm service availability."],
-                ["03", "Start Weekly Care", "Once you are scheduled, your first month of weekly pool service is free."],
+                ["01", "Complete 12 Paid Months", "Stay current on 12 consecutive months of weekly pool service with Captain Jon."],
+                ["02", "Call Captain Jon", "Call the number below and mention the Google one-year loyalty reward."],
+                ["03", "Enjoy Your Free Month", "Captain Jon will confirm eligibility and apply your free 13th month of weekly pool service."],
               ].map(([number, title, copy]) => (
                 <article key={number} className="min-h-64 p-7 md:p-8" style={{ backgroundColor: "white" }}>
                   <span className="block text-5xl font-black leading-none" style={{ color: "oklch(0.74 0.155 75 / .45)", fontFamily: "'Oswald', sans-serif" }}>{number}</span>
@@ -187,12 +187,12 @@ export default function AnniversaryOfferPage() {
                 Make Your Pool the Easy Part of Your Week.
               </h2>
               <p className="mt-5 max-w-2xl text-lg leading-relaxed" style={{ color: "oklch(0.78 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}>
-                This offer is available for new residential weekly pool-service customers in Captain Jon&apos;s service area, subject to scheduling availability. Call directly to redeem.
+                This loyalty reward is available to current residential weekly pool-service customers after 12 consecutive paid months with Captain Jon. Call directly to confirm eligibility and redeem.
               </p>
             </div>
             <div className="lg:col-span-4 lg:text-right">
               <a href={phoneHref} className="btn-gold inline-flex items-center gap-2 px-7 py-4"><Phone className="h-4 w-4" /> Call {phoneDisplay}</a>
-              <p className="mt-4 text-sm" style={{ color: "oklch(0.68 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}>Mention: “One-Year Anniversary Offer”</p>
+              <p className="mt-4 text-sm" style={{ color: "oklch(0.68 0.01 250)", fontFamily: "'Open Sans', sans-serif" }}>Mention: “One-Year Loyalty Reward”</p>
             </div>
           </div>
         </section>
@@ -200,7 +200,7 @@ export default function AnniversaryOfferPage() {
         <section className="py-8" style={{ backgroundColor: "oklch(0.95 0.005 250)" }}>
           <div className="container flex flex-col gap-2 text-xs leading-relaxed md:flex-row md:items-center md:justify-between" style={{ color: "oklch(0.46 0.02 250)", fontFamily: "'Open Sans', sans-serif" }}>
             <p className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 flex-none" style={{ color: "oklch(0.55 0.20 145)" }} /> Offer redemption is completed by phone with Captain Jon.</p>
-            <p>New residential weekly pool-service customers only. One offer per household. Subject to service-area and scheduling availability.</p>
+            <p>Current residential weekly pool-service customers only. Earned after 12 consecutive paid months. One reward per household, per 12-month service period.</p>
           </div>
         </section>
       </main>

@@ -15,3 +15,8 @@
 - [x] Build a dedicated one-month-free pool service offer redemption page with a call-to-redeem link.
 - [x] Create and add a Captain Jon before-and-after pool-cleaning image for the offer.
 - [x] Validate, checkpoint, and publish the anniversary offer update.
+
+## Loyalty Offer Correction
+
+- [x] Replace all new-customer and upfront-free claims with 12-month customer loyalty eligibility.
+- [x] Validate, checkpoint, and publish the corrected Google Business Profile offer page.
