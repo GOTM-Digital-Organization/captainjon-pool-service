@@ -9,3 +9,9 @@
 - [x] Update Open Graph and Twitter metadata, verify, and publish.
 - [x] Replace every displayed phone number and click-to-call/text link with 941-704-3699.
 - [x] Validate the new number throughout the site and publish the change.
+
+## One-Year Anniversary GBP Offer
+
+- [x] Build a dedicated one-month-free pool service offer redemption page with a call-to-redeem link.
+- [x] Create and add a Captain Jon before-and-after pool-cleaning image for the offer.
+- [ ] Validate, checkpoint, and publish the anniversary offer update.
