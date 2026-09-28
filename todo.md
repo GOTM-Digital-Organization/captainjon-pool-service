@@ -14,4 +14,4 @@
 
 - [x] Build a dedicated one-month-free pool service offer redemption page with a call-to-redeem link.
 - [x] Create and add a Captain Jon before-and-after pool-cleaning image for the offer.
-- [ ] Validate, checkpoint, and publish the anniversary offer update.
+- [x] Validate, checkpoint, and publish the anniversary offer update.
