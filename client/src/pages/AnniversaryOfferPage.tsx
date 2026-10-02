@@ -22,7 +22,8 @@ import Footer from "@/components/Footer";
 
 const phoneHref = "tel:+19417043699";
 const phoneDisplay = "(941) 704-3699";
-const offerImage = "/manus-storage/captain-jon-pool-transformation_5149f935.png";
+// Public, optimized site asset: avoids an expired managed-storage link on the Netlify domain.
+const offerImage = "/images/anniversary-loyalty-reward.webp";
 
 function setMeta(selector: string, content: string) {
   const element = document.querySelector<HTMLMetaElement>(selector);
