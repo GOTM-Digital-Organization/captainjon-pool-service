@@ -28,4 +28,4 @@
 - [x] Add build-time full HTML, article canonical/OG/Twitter metadata, BlogPosting and breadcrumb schema, sitemap and robots.
 - [x] Confirm desktop/mobile previews and type/production checks.
 - [x] Update weekly process: approval first, website publication after approval, GBP/Facebook copy for Tom to post manually.
-- [ ] Verify approved article is deployed to the existing production domain.
+- [x] Verify approved article is deployed to the existing production domain; article HTML, canonical/OG metadata, and public image return correctly.
