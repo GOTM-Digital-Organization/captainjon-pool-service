@@ -19,6 +19,7 @@ import ContactSection from "@/components/ContactSection";
 import FAQSection from "@/components/FAQSection";
 import MobileStickyBar from "@/components/MobileStickyBar";
 import Footer from "@/components/Footer";
+import { PoolCareTipsPreview } from "@/components/PoolCareContent";
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
         <TestimonialsSection />
         <PoolLeakCTA />
         <FAQSection />
+        <PoolCareTipsPreview />
         <ContactSection />
       </main>
       <Footer />

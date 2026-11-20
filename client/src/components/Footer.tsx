@@ -105,6 +105,7 @@ export default function Footer() {
                   </a>
                 </li>
               ))}
+              <li><a href="/pool-care-tips" className="text-sm underline underline-offset-4 hover:opacity-80" style={{ color: "oklch(0.74 0.155 75)", fontFamily: "'Open Sans', sans-serif" }}>Pool Care Tips</a></li>
             </ul>
           </div>
 

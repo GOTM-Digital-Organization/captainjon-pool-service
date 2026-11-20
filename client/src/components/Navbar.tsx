@@ -27,18 +27,20 @@ export default function Navbar() {
     { label: "Service Areas", href: "#service-areas" },
     { label: "About", href: "#about" },
     { label: "FAQ", href: "#faq" },
+    { label: "Pool Care Tips", href: "/pool-care-tips" },
     { label: "Contact", href: "#contact" },
   ];
 
   const navigationHref = (href: string) => (href.startsWith("#") && location !== "/" ? `/${href}` : href);
+  const opaque = scrolled || location.startsWith("/pool-care-tips");
 
   return (
     <header
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
       style={{
-        backgroundColor: scrolled ? "oklch(0.13 0.04 250)" : "transparent",
-        boxShadow: scrolled ? "0 2px 20px oklch(0 0 0 / 0.3)" : "none",
-        backdropFilter: scrolled ? "blur(12px)" : "none",
+        backgroundColor: opaque ? "oklch(0.13 0.04 250)" : "transparent",
+        boxShadow: opaque ? "0 2px 20px oklch(0 0 0 / 0.3)" : "none",
+        backdropFilter: opaque ? "blur(12px)" : "none",
       }}
     >
       <div className="container">
@@ -81,12 +83,12 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-6">
+          <nav className="hidden xl:flex items-center gap-3">
             {navLinks.map((link) => (
               <a
                 key={link.label}
                 href={navigationHref(link.href)}
-                className="text-white/80 hover:text-white text-sm font-medium transition-colors duration-200 tracking-wide"
+                className="text-white/80 hover:text-white text-xs font-medium transition-colors duration-200 whitespace-nowrap"
                 style={{ fontFamily: "'Open Sans', sans-serif" }}
               >
                 {link.label}
@@ -113,9 +115,10 @@ export default function Navbar() {
 
           {/* Mobile menu button */}
           <button
-            className="lg:hidden text-white p-2"
+            className="xl:hidden text-white p-2"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
+            aria-expanded={mobileOpen}
           >
             {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -125,7 +128,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {mobileOpen && (
         <div
-          className="lg:hidden border-t"
+          className="xl:hidden border-t"
           style={{
             backgroundColor: "oklch(0.13 0.04 250)",
             borderColor: "oklch(0.30 0.04 250)",

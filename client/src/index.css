@@ -267,3 +267,36 @@
     padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px));
   }
 }
+
+/* Pool Care Tips: readable long-form editorial content. */
+.pool-care-prose {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.85;
+  color: oklch(0.30 0.025 250);
+  overflow-wrap: break-word;
+}
+.pool-care-prose p { margin: 0 0 1.4rem; }
+.pool-care-prose h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+  font-weight: 800;
+  line-height: 1.3;
+  color: oklch(0.18 0.04 250);
+  margin: 2.25rem 0 1rem;
+  scroll-margin-top: 6rem;
+}
+.pool-care-prose a {
+  color: oklch(0.35 0.07 250);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+.pool-care-prose a:hover { color: oklch(0.22 0.05 250); }
+.pool-care-prose ul, .pool-care-prose ol { margin: 0 0 1.4rem; padding-left: 1.5rem; }
+.pool-care-prose ul { list-style: disc; }
+.pool-care-prose ol { list-style: decimal; }
+.pool-care-page a:focus-visible { outline: 3px solid oklch(0.74 0.155 75); outline-offset: 4px; }
+@media (max-width: 639px) {
+  .pool-care-prose { font-size: 1rem; line-height: 1.8; }
+}

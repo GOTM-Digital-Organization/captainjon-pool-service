@@ -8,12 +8,16 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import AnniversaryOfferPage from "./pages/AnniversaryOfferPage";
 import PoolLeakDetectionPage from "./pages/PoolLeakDetectionPage";
+import PoolCareTipsPage from "./pages/PoolCareTipsPage";
+import PoolCareArticlePage from "./pages/PoolCareArticlePage";
 function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/anniversary-offer"} component={AnniversaryOfferPage} />
       <Route path={"/pool-leak-detection"} component={PoolLeakDetectionPage} />
+      <Route path={"/pool-care-tips"} component={PoolCareTipsPage} />
+      <Route path={"/pool-care-tips/:slug"}>{params => <PoolCareArticlePage slug={params.slug} />}</Route>
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
     </Switch>
