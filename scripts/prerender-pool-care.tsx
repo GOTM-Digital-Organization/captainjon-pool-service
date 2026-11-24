@@ -37,7 +37,7 @@ async function renderPage(path: string, post?: PoolCarePost) {
 <meta name="twitter:description" content="${escape(seo.description)}" />
 <meta name="twitter:image" content="${seo.image}" />
 <meta name="twitter:image:alt" content="${escape(seo.imageAlt)}" />
-${post ? `<meta property="article:published_time" content="${post.publishedDate}T00:24:16-05:00" />` : ""}
+${post ? `<meta property="article:published_time" content="${post.publishedDate}" />` : ""}
 <script id="pool-care-schema" type="application/ld+json">${JSON.stringify(seo.schema).replace(/</g, "\\u003c")}</script>`;
   html = html.replace("</head>", `${tags}\n</head>`);
   const content = renderToStaticMarkup(<Router ssrPath={path}><div className="min-h-screen"><Navbar />{post ? <PoolCareArticleContent post={post} /> : <PoolCareTipsContent />}<Footer /></div></Router>);
